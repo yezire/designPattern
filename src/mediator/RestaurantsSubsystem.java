@@ -17,6 +17,6 @@ public class RestaurantsSubsystem implements Colleague{
     // 只是由于我实现的时候不想根据餐厅、机场这些不同场景设置不同的处理方法，因此用了同一个形式，但是在实际问题中
     //一般都会不一样，因此没有写成固定接口。
     System.out.println("在餐厅发现一名新客户");
-    mediator.colleagueChanged(person);
+    mediator.colleagueChanged(person,this);
   }
 }

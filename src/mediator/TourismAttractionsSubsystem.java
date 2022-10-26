@@ -14,6 +14,6 @@ public class TourismAttractionsSubsystem  implements Colleague{
 
   public void findNewTourist(Person person){
     System.out.println("在景点发现一名新客户");
-    mediator.colleagueChanged(person);
+    mediator.colleagueChanged(person,this);
   }
 }

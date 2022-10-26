@@ -14,6 +14,6 @@ private Mediator mediator;
 
   public void findNewTourist(Person person){
     System.out.println("在机场发现一名新客户");
-    mediator.colleagueChanged(person);
+    mediator.colleagueChanged(person,this);
   }
 }
